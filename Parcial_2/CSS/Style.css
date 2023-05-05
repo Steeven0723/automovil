@@ -1,0 +1,43 @@
+
+body{
+    background-image: url(../img/bmw-923028_1280.jpg);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+  }
+
+  
+  form {
+    
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #faf7f7;
+    border-radius: 5px;
+    background-color: #faf7f7;
+  }
+  a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+
+  }
+  .Cons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  

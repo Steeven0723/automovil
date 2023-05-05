@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Automóviles</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body> 
+      <h2>FORMULARIO DE AUTOMOVIL</h2>
+    
+  <div >
+    <form  method="POST" action="controlador/controlador_roles.php">
+      <!-- <form method="POST" action="conexion.php"> -->
+        <div class="input-wrapper">
+          <input type="text" id="documento" name="documento" placeholder="Documento" required>
+          <img class="input-icon" src="img/documento.png" alt="">
+        </div>
+
+        <div class="input-wrapper">
+          <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+          <img class="input-icon" src="img/name.svg" alt="">
+        </div>
+        
+        <div class="input-wrapper">
+          <input type="email" id="correo" name="correo" placeholder="Correo" required >
+          <img class="input-icon" src="img/email.svg" alt="">
+        </div>
+  
+        <div class="input-wrapper">
+          <input type="text" id="placa" name="placa" placeholder="Placa" required>
+          <img class="input-icon" src="img/placa.png" alt="">
+        </div>
+  
+        <div class="input-wrapper">
+          <input type="text" id="modelo" name="modelo" placeholder="Modelo" required >
+          <img class="input-icon" src="img/modelo.png" alt="">
+        </div>
+
+          <input name="opcion" type="hidden" id="opcion" value="3">
+          <input class="btn" type="submit" name="Register" value="Enviar">
+          <!-- <button type="submit" >Enviar</button> -->
+          <a href="vista/Admin.html">Consultar</a>
+        </form>
+        
+  </div>
+
+</body>
+<link rel="stylesheet"  href="scrip.js">
+</html>
